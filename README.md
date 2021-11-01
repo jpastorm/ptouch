@@ -10,8 +10,7 @@ tiny script made in go to make easy mkdir and touch
 ## Usage
 ```bash
 ptouch a/b/c/c.txt
-```
-```
+
 .
 └── a
     └── b
@@ -21,17 +20,17 @@ ptouch a/b/c/c.txt
 
 ```bash
 ptouch a/b/b.txt
-```
-```
+
 .
 └── a
     └── b
         ├── b.txt
         └── c
             └── c.txt
+```
 ```bash
 ptouch hello.txt
-```
+
 .
 ├── a
 │   └── b
