@@ -25,22 +25,22 @@ func create(name string) (*os.File, error) {
 }
 
 func main() {
-        path := os.Args[1]
+	path := os.Args[1]
 	err := ensureDir(path)
 	if err != nil {
-                os.Exit(1)
+		os.Exit(1)
 	}
 
-        f, err := create(path)
-        if err != nil {
-                os.Exit(1)
-        }
+	f, err := create(path)
+	if err != nil {
+		os.Exit(1)
+	}
 
 	if os.IsExist(err) {
-                os.Exit(1)
+		os.Exit(1)
 	}
 
 	f.Close()
 
-        os.Exit(0)
+	os.Exit(0)
 }
