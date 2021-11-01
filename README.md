@@ -1,6 +1,6 @@
 # Simple make file and directories ptouch
 
-tiny script made in go to replace mkdir and touch
+tiny script made in go to make easy mkdir and touch
 
 ## Install
 ```
