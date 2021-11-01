@@ -3,8 +3,8 @@
 tiny script made in go to make easy mkdir and touch
 
 ## Install
-```
-
+```bash
+sudo curl -L https://raw.githubusercontent.com/jpastorm/ptouch/master/ptouch --output /usr/local/bin/ptouch && sudo chmod +x /usr/local/bin/ptouch
 ```
 
 ## Usage
